@@ -24,8 +24,6 @@ The CRNN model is a pair of CNN encoder and RNN decoder (see figure below):
     1. trained from scratch
     2. a pretrained model [ResNet-152](https://arxiv.org/abs/1512.03385) using image dataset [ILSVRC-2012-CLS](http://www.image-net.org/challenges/LSVRC/2012/).
 
-<img src="./fig/CRNN.png" width="650">
-
 
 
 ## Training & testing
@@ -69,10 +67,6 @@ The CRNN model is a pair of CNN encoder and RNN decoder (see figure below):
 2D CNN + LSTM           |  25  |  54.62 % | 
 2D ResNet152-CNN + LSTM |  53  |**85.68 %** |      
 
-<img src="./fig/loss_3DCNN.png" width="650">
-<img src="./fig/loss_CRNN.png" width="650">
-<img src="./fig/loss_ResNetCRNN.png" width="650">
 
 
 
-<br>
